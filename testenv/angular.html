@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app>
+  <div ng-controller="MonaCtrl" >
+    <ul>
+      <li ng-repeat="item in items" >{{item.name}}:{{item.price}}円</li><br/>
+      <li>{{items.item1.name}}購入:<input type="number" ng-model="item1" min="0" />個</input></li>
+      <li>{{items.item2.name}}購入:<input type="number" ng-model="item2" min="0" />個</input></li>
+      <li>{{items.item3.name}}購入:<input type="number" ng-model="item3" min="0" />個</input></li>
+      <li>お買い上げ数:{{ getAmount() | number }}個</li> 
+      <li>購入代金:{{ getPayment() | number }}円 </li>
+      <li>{{shippingMessage}}:{{shipping}}円</li>
+      <li>総代金:{{getTotalcost() | number}}:円</li>
+    </ul>
+  </div>
+</body>
+</html>

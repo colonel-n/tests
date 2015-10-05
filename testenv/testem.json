@@ -1,0 +1,5 @@
+{
+	"framework": "jasmine",
+	"test_page": "runner.html",
+	"launch_in_dev": ["Chrome", "Safari"]
+}

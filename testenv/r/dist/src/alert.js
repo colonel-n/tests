@@ -1,0 +1,1 @@
+(function(){define(["jquery","underscore"],function(e){e(function(){e("#testbutton").click(function(){return alert(1)})})})}).call(this);

@@ -1,0 +1,1 @@
+(function(){define(["src/randomizer"],function(e){return describe("Randomizerをコールする場合",function(){return beforeEach(function(){return this.addMatchers({toBeNumber:function(){var e;return e=String(this.actual),e.match(/^[0-9]+$/)}})}),it("#数字を返却する",function(){var t,n;return n=new e,t=n.generate(),expect(t).toBeNumber()})})})}).call(this);

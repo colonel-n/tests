@@ -1,0 +1,1 @@
+(function(){define(["src/notepad"],function(e){return describe("returns titles",function(){return it("returns titles",function(){return expect(e.noteTitles()).toEqual("pick up the kids get milk ")})})})}).call(this);

@@ -1,0 +1,1 @@
+var utils=utils||{};utils.core=utils.core||{},utils.core.waitfor=function(e,t,n,r,i){var r=r||3e3,i=i||250,s=Date.now(),o=!1,u=setTimeout(function(){var a=Date.now()-s;a<r&&!o?(o=e(a),u=setTimeout(arguments.callee,i)):(clearTimeout(u),o?t(a):n(a))},i)};
