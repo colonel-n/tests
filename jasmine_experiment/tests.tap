@@ -1,0 +1,26 @@
+ok 1 Chrome 27.0 - FizzBuzz.execに数値を与えた場合 3でFizzを表示する.
+ok 2 Chrome 27.0 - FizzBuzz.execに数値を与えた場合 5でBuzzを表示する.
+ok 3 Chrome 27.0 - FizzBuzz.execに数値を与えた場合 15でFizzBuzzを表示する.
+ok 4 Chrome 27.0 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 3とFizzの組み合わせが返却される.
+ok 5 Chrome 27.0 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 5とBuzzの組み合わせが返却される.
+ok 6 Chrome 27.0 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 15とFizzBuzzの組み合わせが返却される.
+ok 7 Chrome 27.0 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 2と2の組み合わせが返却される.
+ok 8 Safari 6.0 - FizzBuzz.execに数値を与えた場合 3でFizzを表示する.
+ok 9 Safari 6.0 - FizzBuzz.execに数値を与えた場合 5でBuzzを表示する.
+ok 10 Safari 6.0 - FizzBuzz.execに数値を与えた場合 15でFizzBuzzを表示する.
+ok 11 Safari 6.0 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 3とFizzの組み合わせが返却される.
+ok 12 Safari 6.0 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 5とBuzzの組み合わせが返却される.
+ok 13 Safari 6.0 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 15とFizzBuzzの組み合わせが返却される.
+ok 14 Safari 6.0 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 2と2の組み合わせが返却される.
+ok 15 PhantomJS 1.9 - FizzBuzz.execに数値を与えた場合 3でFizzを表示する.
+ok 16 PhantomJS 1.9 - FizzBuzz.execに数値を与えた場合 5でBuzzを表示する.
+ok 17 PhantomJS 1.9 - FizzBuzz.execに数値を与えた場合 15でFizzBuzzを表示する.
+ok 18 PhantomJS 1.9 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 3とFizzの組み合わせが返却される.
+ok 19 PhantomJS 1.9 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 5とBuzzの組み合わせが返却される.
+ok 20 PhantomJS 1.9 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 15とFizzBuzzの組み合わせが返却される.
+ok 21 PhantomJS 1.9 - FizzBuzz.getFizzBuzzRandomNumberSetをコールした場合 2と2の組み合わせが返却される.
+
+1..21
+# tests 21
+# pass  21
+# fail  0
